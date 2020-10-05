@@ -82,6 +82,17 @@
 	img{
 		max-width:600px;
 	}
+	@media screen and (max-width:770px){
+		h1{
+			font-size:3rem;
+		}
+		h4{
+			font-size:1rem
+		}
+		p{
+			font-size:.8rem;
+		}
+	}
 	@media screen and (max-width:900px){
 		row{
 			position:relative;
@@ -93,6 +104,7 @@
 		img{
 			opacity: 30%;
 		}
+		
 		.text{
 			margin:0;
 			position: absolute;
@@ -100,6 +112,5 @@
 			left: 50%;
 			transform: translate(-50%, -50%);
 		}
-
 	}
 </style>
