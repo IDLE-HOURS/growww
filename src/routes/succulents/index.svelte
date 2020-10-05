@@ -24,13 +24,11 @@
 </div>
 
 <style>
-    #headline{
-        width:100%;
-        display:flex;
-        justify-content: end;
+     #headline{
+        display:none;
     }
     #grid{
-        margin: 2rem auto 0 auto;
+        margin: 3rem auto 0 auto;
     }
     @media screen and (min-width:770px){
         #grid{
@@ -38,5 +36,14 @@
             gap:2rem;
         }
     }
-    
+    @media screen and (min-width:900px){
+        #headline{
+            width:100%;
+            display:flex;
+            justify-content: end;
+        }
+        #grid{
+            margin: 2rem auto 0 auto;
+        }
+    }
 </style>
